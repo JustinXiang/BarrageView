@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/yidianzan"
+        android:layout_gravity="center"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/danmu_dianzan"
+        android:visibility="invisible"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/lll"
+        android:background="@drawable/corners_danmu"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/barrageview_item_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="8sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:id="@+id/barrageview_item_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>
